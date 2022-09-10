@@ -1,0 +1,23 @@
+# default
+* text=auto
+
+# For documentation
+*.md diff=markdown
+
+# Linux scripts
+*.sh diff=bash
+*.sh text eol=lf
+
+# PowerShell
+*.ps1 diff=text eol=crlf
+*.psd1 diff=text eol=crlf
+*.psm1 diff=text eol=crlf
+*.ps1xml diff=text eol=crlf
+
+
+# Base
+.gitignore text eol=lf
+.gitattributes text eol=lf
+
+/.github export-ignore
+CHANGELOG.md export-ignore
